@@ -104,6 +104,7 @@ rows | int | 1 | Setting this to more than 1 initializes grid mode. Use slidesPe
 rtl | boolean | false | Change the slider's direction to become right-to-left
 slide | string | '' | Slide element query
 slidesPerRow | int | 1 | With grid mode initialized via the rows option, this sets how many slides are in each grid row.
+slidesReinit | boolean | true | Change current slide to first slide when # of slides to show is equal to # of total slides
 slidesToScroll | int | 1 | # of slides to scroll at a time
 slidesToShow | int | 1 | # of slides to show at a time
 speed | int | 300 | Transition speed

@@ -75,6 +75,7 @@
                 rtl: false,
                 slide: '',
                 slidesPerRow: 1,
+                slidesReinit: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 speed: 500,
@@ -1937,7 +1938,7 @@
             _.currentSlide = _.currentSlide - _.options.slidesToScroll;
         }
 
-        if (_.slideCount <= _.options.slidesToShow) {
+        if (_.slideCount <= _.options.slidesToShow && _.options.slidesReinit) {
             _.currentSlide = 0;
         }
 
